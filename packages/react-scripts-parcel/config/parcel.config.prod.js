@@ -57,6 +57,7 @@ module.exports = {
   watch: false,
   cache: false,
   cacheDir: '.cache', // The directory cache gets put in, defaults to .cache
+  contentHash: false, // Disable content hash from being included on the filename
   minify: true, // minify prod
   target: 'browser', // browser/node/electron, defaults to browser
   https: false, // Server files over https or http, defaults to false
